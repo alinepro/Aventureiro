@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+  int main(){
+    float nota1, nota2, nota3, media;
+    float soma = nota1+nota2+nota3;
+    float media = soma/3;
+    int resultado = media;
+
+    printf("Digite a nota 1: %f\n",nota1);
+    scanf("%f", &nota1);
+
+    printf("Digite a nota 2: %f\n",nota2);
+    scanf("%f", &nota2);
+
+    printf("Digite a nota 3: %f\n",nota3);
+    scanf("%f", &nota3);
+
+    printf("A média é: %f,\n", media);
+
+    resultado += 3;
+    printf("O resultao será: %d\n", resultado);
+
+  return 0;
+
+  }
